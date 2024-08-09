@@ -15,7 +15,7 @@ descriptions = {
 
 def main(page: ft.Page):
     # Initial description
-    description = ft.Text(value="", size=20, weight="bold", color=ft.colors.BLACK)
+    description = ft.Text(value="", size=20, weight="bold", color=ft.colors.RED)
 
     # Function to update description based on clicked principle
     def update_description(principle):
