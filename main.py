@@ -106,7 +106,7 @@ def main(page: ft.Page):
     plot_project_cost()
 
 # Run the app
-ft.app(target=main)
+ft.app(target=main, view=None, port=int(os.getenv("PORT", 8502)))
 
 
 
